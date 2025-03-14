@@ -7,7 +7,7 @@ job('My-Freestyle-Job') {
     scm {
         git {
             remote {
-                url('https://github.com/yourusername/yourrepository.git')
+                url('[https://github.com/yourusername/yourrepository.git](https://github.com/Edward-okoto/jenkins-scm/tree/main)')
             }
             branch('*/main')
         }
