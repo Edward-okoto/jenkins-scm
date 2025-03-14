@@ -13,7 +13,7 @@ job('My-Freestyle-Job') {
         }
     }
     
-    // Optionally, poll the repository every 5 minutes for changes
+    // This is optional Optionally, poll the repository every 5 minutes for changes
     triggers {
         scm('H/5 * * * *')
     }
